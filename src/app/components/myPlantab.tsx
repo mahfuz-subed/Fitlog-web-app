@@ -56,7 +56,7 @@ const MyPlanTab = () => {
 
     return (
         <div>
-           <div className="flex justify-end mt-6 mb:3 md:mt-8">
+           <div className="flex justify-end mt-6 mb-3 md:mt-8">
   <select value={sortBy}
     onChange={(e)=> setSortBy (e.target.value as "duration" | "calories" | "rating")}
     className="select w-full sm:w-1/2 md:w-1/3 lg:w-1/4 bg-[#222630] text-white rounded-full border border-[#9ca3af] cursor-pointer hover:border-[#c2f800] focus:border-[#c2f800] focus:outline-none transition">
